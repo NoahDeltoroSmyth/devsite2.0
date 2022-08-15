@@ -6,31 +6,37 @@ const Navbar = () => {
   const handleClick = () => setClick(!click);
 
   return (
-    <nav>
-      <div onClick={handleClick}>
+    <>
+      <div className="header-icon" onClick={handleClick}>
         {click ? (
-          <>
-            <img src="closeicon.png" alt="close menu" />
-            <ul onClick={handleClick}>
-              <Link to="/">
-                <li>About Me</li>
-              </Link>
-              <Link to="coding-projects">
-                <li>Coding Projects</li>
-              </Link>
-              <Link to="personal-projects">
-                <li>Personal Projects</li>
-              </Link>
-              <Link to="contact">
-                <li>Contact Me</li>
-              </Link>
-            </ul>
-          </>
+          <img className="close-icon" src="closeicon.png" alt="close menu" />
         ) : (
-          <img src="dropdownicon.png" alt="dropdown menu" />
+          <img
+            className="dropdown-icon"
+            src="dropdownicon.png"
+            alt="dropdown menu"
+          />
         )}
       </div>
-    </nav>
+      {click && (
+        <div className="dropdown-menu">
+          <ul onClick={handleClick}>
+            <Link to="/">
+              <li>About Me</li>
+            </Link>
+            <Link to="coding-projects">
+              <li>Coding Projects</li>
+            </Link>
+            <Link to="personal-projects">
+              <li>Personal Projects</li>
+            </Link>
+            <Link to="contact">
+              <li>Contact Me</li>
+            </Link>
+          </ul>
+        </div>
+      )}
+    </>
   );
 };
 

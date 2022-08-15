@@ -5,7 +5,7 @@ function Bio() {
   return (
     <div>
       <h1>Noah Del Toro Smyth</h1>
-      <img src="profilepic.jpg" alt="Noah Smyth"></img>
+      <img className="profile-pic" src="profilepic.jpg" alt="Noah Smyth"></img>
       <h2>
         software engineer with a keen eye for design, accuracy, and a passion
         for problem-solving. Well-versed in the HTML, CSS, and Javascript
