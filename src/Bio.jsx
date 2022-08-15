@@ -1,13 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Bio() {
   return (
     <>
       <div className="my-name">
-        <h1>Noah</h1>
-        <h1>Smyth</h1>
-        <h1>Del Toro</h1>
+        <h1 className="first-name">Noah</h1>
+        <h1 className="middle-name">Del Toro</h1>
+        <h1 className="last-name">Smyth</h1>
       </div>
       <img className="profile-pic" src="profilepic.jpg" alt="Noah Smyth"></img>
       <h2 className="bio">

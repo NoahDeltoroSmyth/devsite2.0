@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="header-icon" onClick={handleClick}>
+      <div className="header" onClick={handleClick}>
         {click ? (
           <img className="close-icon" src="closeicon.png" alt="close menu" />
         ) : (
