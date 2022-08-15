@@ -1,22 +1,19 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import './App.css';
-import Contact from './Contact';
-import Home from './Home';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Contact from "./Contact";
+import Bio from "./Bio";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div className="App">
-
       <BrowserRouter>
-        <nav>
-          <Link to="/">Home</Link>
-        </nav>
+        <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path="/" element={<Bio />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
-
     </div>
   );
 }
