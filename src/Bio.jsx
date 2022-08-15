@@ -3,12 +3,18 @@ import React from "react";
 function Bio() {
   return (
     <>
-      <div className="my-name">
-        <h1 className="first-name">Noah</h1>
-        <h1 className="middle-name">Del Toro</h1>
-        <h1 className="last-name">Smyth</h1>
+      <div className="main">
+        <div className="my-name">
+          <h1 className="first-name">Noah</h1>
+          <h1 className="middle-name">Del Toro</h1>
+          <h1 className="last-name">Smyth</h1>
+        </div>
+        <img
+          className="profile-pic"
+          src="profilepic.jpg"
+          alt="Noah Smyth"
+        ></img>
       </div>
-      <img className="profile-pic" src="profilepic.jpg" alt="Noah Smyth"></img>
       <h2 className="bio">
         software engineer with a keen eye for design, accuracy, and a passion
         for problem-solving. Well-versed in the HTML, CSS, and Javascript
