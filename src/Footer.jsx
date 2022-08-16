@@ -4,16 +4,15 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer">
-      <Link className="contact-link" to="/contact">
-        <h3>Contact Me</h3>
+      <Link to="/contact">
+        <h3 className="footer-link">Contact Me</h3>
       </Link>
       <a
-        className="resume-link"
         href="https://www.canva.com/design/DAE4pvlZQA0/view"
         target="_blank"
         rel="noreferrer"
       >
-        <h3>Resume</h3>
+        <h3 className="footer-link">Resume</h3>
       </a>
     </div>
   );

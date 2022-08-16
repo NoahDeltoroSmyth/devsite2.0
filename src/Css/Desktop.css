@@ -1,0 +1,108 @@
+/* Styling for devices over 500px */
+@media (min-width: 500px) {
+  .name-and-photo {
+    display: flex;
+    margin-bottom: 5vw;
+  }
+
+  .profile-pic {
+    width: 40%;
+  }
+
+  .header {
+    margin-left: 88%;
+    height: 10vw;
+  }
+
+  .dropdown-icon {
+    width: 10vw;
+  }
+
+  .close-icon {
+    margin-top: 2vw;
+    width: 6vw;
+  }
+
+  li {
+    margin: 4vw;
+    font-size: 3vw;
+    letter-spacing: 1vw;
+  }
+
+  .bio {
+    font-size: 2.5vw;
+  }
+
+  a:focus {
+    color: lightblue;
+  }
+
+  a:hover {
+    color: orange;
+  }
+
+  .dropdown-menu {
+    height: 69vw;
+  }
+
+  @keyframes slideMenu {
+    from {
+      margin-top: -65vw;
+    }
+
+    to {
+      margin-bottom: 60%;
+    }
+  }
+
+  .footer {
+    height: 65px;
+    border-top-right-radius: 1vw;
+    border-top-left-radius: 1vw;
+  }
+
+  .footer-link {
+    font-weight: 500;
+  }
+
+  .first-name,
+  .last-name {
+    font-size: 6.5vw;
+    letter-spacing: 1.25vw;
+    text-shadow: -10px -2px lightblue;
+    margin: 1vw;
+    animation: slideFirstAndLast 4s;
+  }
+
+  @keyframes slideFirstAndLast {
+    from {
+      margin-left: -65vw;
+      letter-spacing: 8vw;
+    }
+
+    to {
+      margin-left: 0vw;
+      letter-spacing: 1.25vw;
+      margin: 1vw;
+    }
+  }
+
+  .middle-name {
+    font-size: 7.5vw;
+    letter-spacing: 2.5vw;
+    text-shadow: -10px -2px orange;
+    animation: slideMiddle 8s;
+  }
+
+  @keyframes slideMiddle {
+    from {
+      margin-left: -700px;
+      letter-spacing: 6vw;
+    }
+
+    to {
+      margin-left: 0vw;
+      letter-spacing: 2.5vw;
+    }
+  }
+}

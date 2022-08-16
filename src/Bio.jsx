@@ -3,7 +3,7 @@ import React from "react";
 function Bio() {
   return (
     <>
-      <div className="main">
+      <div className="name-and-photo">
         <div className="my-name">
           <h1 className="first-name">Noah</h1>
           <h1 className="middle-name">Del Toro</h1>

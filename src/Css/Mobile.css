@@ -1,0 +1,95 @@
+/* Styling for devices under 500px */
+.profile-pic {
+  width: 69%;
+}
+
+.header {
+  margin-left: 80%;
+  height: 19vw;
+}
+
+.dropdown-icon {
+  width: 20vw;
+}
+
+.close-icon {
+  margin-top: 4vw;
+  width: 12vw;
+}
+
+li {
+  margin: 18vw;
+  font-size: 6vw;
+  letter-spacing: 0.25vw;
+}
+
+.bio {
+  font-size: 5vw;
+}
+
+a:focus {
+  color: orange;
+}
+
+.dropdown-menu {
+  height: 185vw;
+}
+
+@keyframes slideMenu {
+  from {
+    margin-top: -200vw;
+  }
+
+  to {
+    margin-bottom: 60%;
+  }
+}
+
+.footer {
+  height: 15vw;
+  border-top-right-radius: 2vw;
+  border-top-left-radius: 2vw;
+}
+
+.first-name,
+.last-name {
+  font-size: 8.5vw;
+  letter-spacing: 1.5vw;
+  text-shadow: -5px -1.5px #add8e6;
+  margin: 2.75vw;
+  animation: slideFirstAndLast 3s;
+  font-weight: 800;
+}
+
+@keyframes slideFirstAndLast {
+  from {
+    margin-left: -400px;
+    letter-spacing: 8vw;
+  }
+
+  to {
+    margin-left: 0vw;
+    letter-spacing: 1.25vw;
+    margin: 2.75vw;
+  }
+}
+
+.middle-name {
+  font-size: 9.5vw;
+  letter-spacing: 2.5vw;
+  text-shadow: -5px -1.5px #ffa500;
+  animation: slideMiddle 8s;
+  font-weight: 700;
+}
+
+@keyframes slideMiddle {
+  from {
+    margin-left: -500px;
+    letter-spacing: 6vw;
+  }
+
+  to {
+    margin-left: 0vw;
+    letter-spacing: 2.5vw;
+  }
+}
