@@ -107,6 +107,7 @@
     border-top-right-radius: 2vw;
     border-top-left-radius: 2vw;
     width: 100%;
+    opacity: 0.96;
   }
 
   .resume-link {
@@ -176,6 +177,7 @@
 @media (min-width: 500px) {
   .App {
     text-align: center;
+    background-image: linear-gradient(#d1f4dc, white);
   }
 
   .main {
@@ -205,6 +207,9 @@
 
   .header {
     margin-left: 88%;
+    height: 10vw;
+    background-color: #dcdacc;
+    border-bottom-left-radius: 2vw;
   }
 
   .dropdown-icon {
@@ -224,9 +229,29 @@
     letter-spacing: 1vw;
   }
 
+  h2 {
+    color: #000000;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 2.5vw;
+    letter-spacing: 0.5vw;
+    word-spacing: 0.75vw;
+    margin: 8vw;
+    text-align: left;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  hr {
+    width: 69%;
+    margin-top: 6vw;
+  }
+
   a {
     text-decoration: none;
-    color: black;
+    color: #51734a;
   }
 
   a:hover {
@@ -259,8 +284,11 @@
     position: fixed;
     bottom: 0;
     height: 65px;
-    background-color: white;
+    background-color: #dcdacc;
+    border-top-right-radius: 1vw;
+    border-top-left-radius: 1vw;
     width: 100%;
+    opacity: 0.96;
   }
 
   .resume-link {
