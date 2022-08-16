@@ -15,11 +15,15 @@ function Bio() {
           alt="Noah Smyth"
         ></img>
       </div>
+      <hr></hr>
       <h2 className="bio">
-        software engineer with a keen eye for design, accuracy, and a passion
-        for problem-solving. Well-versed in the HTML, CSS, and Javascript
-        languages. At heart an artist of functionality welcoming to new
-        challenges that strengthen the ability to write DRY code.
+        Hi I'm Noah. I am a front-end software developer with a keen eye for
+        design and accuracy. I am a passionate problem solver that is
+        well-versed in HTML, CSS, Javascript and the React framework. At heart I
+        am an artist of functionality that welcomes everyday's new challenges. I
+        have found that I am a "Jack of all trades", so when I am not coding you
+        could find me turning a wrench on my motorcycle, making art out of
+        metal, or enjoying an evening ride on my bicycle.
       </h2>
     </>
   );
