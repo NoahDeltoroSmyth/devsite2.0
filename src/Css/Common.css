@@ -1,4 +1,4 @@
-/* Used for bio paragraph */
+/* Used as main font */
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Maven+Pro&display=swap");
 
 .App {
@@ -43,6 +43,7 @@ li {
   margin: 8vw;
   text-align: left;
   margin-bottom: 25vw;
+  animation: fadeIn 12s;
 }
 
 a {
@@ -80,4 +81,12 @@ hr {
   flex-direction: column;
   align-items: flex-start;
   padding-left: 5%;
+}
+
+.contact-links {
+  font-family: "Maven Pro", sans-serif;
+  text-align: left;
+  margin: 8vw;
+  animation: slideContacts 3s;
+  width: max-content;
 }

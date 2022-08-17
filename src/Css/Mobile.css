@@ -93,3 +93,24 @@ a:focus {
     letter-spacing: 2.5vw;
   }
 }
+
+.contact-links {
+  font-size: 6vw;
+  line-height: 21vw;
+}
+
+/* .contact-header {
+  font-size: 6vw;
+  margin: 4vw;
+} */
+
+@keyframes slideContacts {
+  from {
+    opacity: 0;
+    line-height: 333vw;
+  }
+  to {
+    opacity: 1;
+    line-height: 21vw;
+  }
+}
