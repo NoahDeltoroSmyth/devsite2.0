@@ -111,6 +111,6 @@ a:focus {
   }
   to {
     opacity: 1;
-    line-height: 16vw;
+    line-height: 12vw;
   }
 }
