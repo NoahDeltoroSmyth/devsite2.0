@@ -111,8 +111,8 @@
   }
 
   .contact-links {
-    font-size: 2.25vw;
-    line-height: 3vw;
+    font-size: 2vw;
+    line-height: 1vw;
   }
 
   .contact-header {
@@ -127,12 +127,22 @@
     }
     to {
       opacity: 1;
-      line-height: 3vw;
+      line-height: 1vw;
     }
   }
 
   .link-image {
-    width: 10vw;
-    padding: 3vw;
+    width: 8vw;
+    padding: 1vw;
+    margin: 2vw;
+  }
+
+  .link-anchor {
+    margin: 6vw;
+  }
+
+  .link-caption {
+    font-size: 1.5vw;
+    margin: 0;
   }
 }

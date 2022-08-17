@@ -84,10 +84,7 @@ hr {
 }
 
 .contact-links {
-  margin: 8vw;
   animation: slideContacts 3s;
-  width: 80%;
-  margin: auto;
 }
 
 .contact-header {
@@ -97,7 +94,6 @@ hr {
 }
 
 .link-image {
-  margin: 3vw;
   border: 2px solid lightblue;
   border-radius: 50%;
 }
