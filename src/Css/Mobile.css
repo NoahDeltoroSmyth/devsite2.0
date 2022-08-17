@@ -18,7 +18,7 @@
 }
 
 li {
-  margin: 18vw;
+  margin: 15vw;
   font-size: 6vw;
   letter-spacing: 0.25vw;
 }
@@ -32,7 +32,7 @@ a:focus {
 }
 
 .dropdown-menu {
-  height: 185vw;
+  height: 195vw;
 }
 
 @keyframes slideMenu {
@@ -96,7 +96,7 @@ a:focus {
 
 .contact-links {
   font-size: 6vw;
-  line-height: 21vw;
+  line-height: 16vw;
 }
 
 /* .contact-header {
@@ -111,6 +111,6 @@ a:focus {
   }
   to {
     opacity: 1;
-    line-height: 21vw;
+    line-height: 16vw;
   }
 }
