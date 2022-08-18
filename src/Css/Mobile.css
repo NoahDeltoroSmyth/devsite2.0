@@ -131,4 +131,21 @@ a:focus {
 
 .link-caption {
   font-size: 4vw;
+  animation: spin 6s ease-in-out;
+  color: orange;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+    color: orange;
+  }
+  50% {
+    transform: rotateY(-360deg);
+    color: lightblue;
+  }
+  100% {
+    transform: rotateY(360deg);
+    color: orange;
+  }
 }
