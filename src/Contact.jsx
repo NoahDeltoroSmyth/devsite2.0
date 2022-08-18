@@ -12,12 +12,12 @@ function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          <p className="link-caption">Linkedin</p>
           <img className="link-image" src="linkedin.gif" alt="linkedin logo" />
+          <p className="link-caption">Linkedin</p>
         </a>
         <a className="link-anchor" href="mailto:noahsmyth96@gmail.com">
-          <p className="link-caption">Email</p>
           <img className="link-image" src="email4.gif" alt="email logo" />
+          <p className="link-caption">Email</p>
         </a>
         <a
           className="link-anchor"
@@ -25,8 +25,8 @@ function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          <p className="link-caption">Resume</p>
           <img className="link-image" src="resume.gif" alt="resume logo" />
+          <p className="link-caption">Resume</p>
         </a>
         <a
           className="link-anchor"
@@ -34,12 +34,12 @@ function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          <p className="link-caption">Instagram</p>
           <img
             className="link-image"
             src="instagram.gif"
             alt="instagram logo"
           />
+          <p className="link-caption">Instagram</p>
         </a>
         <a
           className="link-anchor"
@@ -47,8 +47,8 @@ function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          <p className="link-caption">Github</p>
           <img className="link-image" src="github.gif" alt="github logo" />
+          <p className="link-caption">Github</p>
         </a>
       </div>
       <hr></hr>
